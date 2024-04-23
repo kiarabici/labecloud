@@ -18,7 +18,7 @@ security:
   user:
     name: user
 password: user
-
+# comment
 
 
 # Logging configuration
