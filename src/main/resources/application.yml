@@ -1,0 +1,33 @@
+# Spring Boot configuration
+spring:
+  # Database
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://flora.db.elephantsql.com/crfajshk
+    username: crfajshk
+    password: j_9zrQUKdkU_XegkEcoR0MaMlXUNxcmg
+  # JPA properties
+  jpa:
+    hibernate.ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+# Server configuration
+server:
+  port: 8080
+# Security configuration
+security:
+  user:
+    name: user
+password: user
+
+
+
+# Logging configuration
+logging:
+  level:
+    root: INFO
+  file:
+    name: C:\Users\Public\Logs\lab.log
+    max-size: 10MB
+    append: true
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss} - %logger{36} - %msg%n"
