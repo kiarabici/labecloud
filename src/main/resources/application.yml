@@ -31,3 +31,5 @@ logging:
     append: true
   pattern:
     file: "%d{yyyy-MM-dd HH:mm:ss} - %logger{36} - %msg%n"
+
+#Future properties
