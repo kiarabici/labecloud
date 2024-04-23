@@ -24,5 +24,4 @@ jobs:
           tags: ${{github.run_number}}
 
 
-# creating docker container and pushing to dockerub
-# creating docker container and pushing to dockerub
+
